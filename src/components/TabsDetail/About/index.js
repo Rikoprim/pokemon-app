@@ -4,7 +4,6 @@ import capitalFirst from '../../../utils/capitalize';
 import getIDFromUrl from '../../../utils/getIDfromURL';
 import { Container, Description, LeftTitle, RightTitle, Row, TitleHead } from './AboutStyled';
 import { getSpecies } from '../../../redux/actions/PokemonActions'
-import Loader from '../../Loader';
 
 const About = () => {
   const dispatch = useDispatch();
@@ -24,7 +23,7 @@ const About = () => {
   return (
     <Container>
       {loading === false ? (
-        <Loader />
+        <></>
       ) : (
         <>
         <Description>{species.flavor_text_entries[0].flavor_text}</Description>

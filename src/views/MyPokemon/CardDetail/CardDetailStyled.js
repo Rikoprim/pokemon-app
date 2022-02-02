@@ -8,7 +8,7 @@ export const PokemonCard = styled.div`
     border-radius: 8px;
     background: ${({type}) => getColorType(type)};
     position: relative;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `
 export const PokemonImage = styled.img`
     width: 110px;

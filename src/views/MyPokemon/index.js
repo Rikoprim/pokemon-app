@@ -33,14 +33,13 @@ const MyPokemon = () => {
 
   useEffect(() => {
     getData();
-    console.log(dataPokemon);
   }, []);
   
   return (
     <Container>
       <HomeWrapper>
         <BtnBack onClick={goBack} src={back} alt='back'></BtnBack>
-        <NavHeader>My Pokemon123</NavHeader>
+        <NavHeader>My Pokemon</NavHeader>
       </HomeWrapper>
         <ListCard>
           {

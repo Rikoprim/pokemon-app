@@ -13,12 +13,12 @@ export const HomeWrapper = styled.div`
     padding: 25px 30px 0px 30px;
 `
 export const NavLink = styled(Link)`
-    color: #eb5a4d;
-    font-size: 2rem;
+    color: #000;
+    font-size: 1.8rem;
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     flex: 50%;
 `
 export const TitleHead = styled.h4`
@@ -59,6 +59,8 @@ export const BtnLoad = styled.button`
     font-weight: 500;
     color: #0d0c22;
     background: #f3f3f3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-bottom: 15px;
 
     &:hover {
         background-color: #e7e7e9;

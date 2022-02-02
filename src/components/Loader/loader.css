@@ -24,19 +24,19 @@
     right: 0; }
   .ld3 div:nth-child(1) {
     top: 20px;
-    background: #59CD90;
+    background: #2db587;
     animation: ld3_div1 2s linear infinite; }
   .ld3 div:nth-child(2) {
     top: -20px;
-    background: #D91E36;
+    background: #f43839;
     animation: ld3_div2 2s linear infinite; }
   .ld3 div:nth-child(3) {
     left: 20px;
-    background: #F39237;
+    background: #f1a22c;
     animation: ld3_div4 2s linear infinite; }
   .ld3 div:nth-child(4) {
     left: -20px;
-    background: #0072BB;
+    background: #53afe0;
     animation: ld3_div3 2s linear infinite; }
 
 @keyframes outercontainer {

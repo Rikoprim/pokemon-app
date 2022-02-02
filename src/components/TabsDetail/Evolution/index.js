@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getEvolusion } from '../../../redux/actions/PokemonActions';
 import capitalFirst from '../../../utils/capitalize';
 import getIDFromUrl from '../../../utils/getIDfromURL';
-import Loader from '../../Loader';
 import { Container, EvolutionWrapper, PokemonImage, PokemonName } from './EvolutionStyled';
 
 const Evolution = () => {
@@ -24,7 +23,7 @@ const Evolution = () => {
   return (
     <Container>
       {loading === false ? (
-      <Loader />
+        <></>
       ) : (
       <>
         { evolution.map((item, key) => (

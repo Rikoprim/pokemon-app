@@ -3,21 +3,21 @@ const getColorType = (type) => {
     default:
       return '#000'
     case 'bug':
-      return '#8BD674'
+      return '#2db587'
     case 'dark':
       return '#6F6E78'
     case 'dragon':
       return '#7383B9'
     case 'electric':
-      return '#ffd86f'
+      return '#f1a22c'
     case 'fairy':
       return '#EBA8C3'
     case 'fighting':
       return '#EB4971'
     case 'fire':
-      return '#fb6c6c'
+      return '#f43839'
     case 'flying':
-      return '#83A2E3'
+      return '#53afe0'
     case 'ghost':
       return '#8571BE'
     case 'grass':

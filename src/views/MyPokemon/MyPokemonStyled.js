@@ -5,20 +5,20 @@ export const Container = styled.div`
     margin: auto;
     max-width: 525px;
     position: relative;
-    background: #F9FAFA;
+    background: #FAFAFA;
     height: calc(var(--vh, 1vh) * 100);
 `
 export const HomeWrapper = styled.div`
 	padding: 25px 30px 0px 30px;
 `
 export const NavHeader = styled.h4`
-    color: #eb5a4d;
-    font-size: 2rem;
+    color: #000;
+    font-size: 1.8rem;
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
     display: flex;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 15px;
 `
 export const ListCard = styled.div`

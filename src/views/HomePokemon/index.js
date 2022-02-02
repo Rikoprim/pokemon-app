@@ -116,7 +116,7 @@ const HomePokemon = () => {
       <Container>
         <HomeWrapper>
           <Row>
-            <NavLink to="/">Pokemon</NavLink>
+            <NavLink to="/">Pokemon App</NavLink>
             <Link to={`/list-mypokemon`}>
               <ListMyPokemon style={{textAlign: 'right'}} src={IcoList} alt='mypokemon' />
             </Link>

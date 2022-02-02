@@ -23,7 +23,6 @@ import {
 import { setPokemonByName } from '../../redux/actions/PokemonActions';
 import capitalFirst from '../../utils/capitalize';
 import BottomCard from '../../components/BottomCard';
-import Loader from '../../components/Loader';
 
 const DetailPokemon = () => {
   const dispatch = useDispatch();
@@ -40,7 +39,7 @@ const DetailPokemon = () => {
   }
 
   if (loading) {
-    return <Loader />;
+    return <></>;
   }
   if (error) {
     return `Error! ${error.message}`;

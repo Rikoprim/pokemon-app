@@ -28,7 +28,7 @@ export const Line = styled.hr`
     width: 50%;
     margin-top: 12px;
     border-radius: 5px;
-    border: 2px solid #C4C4C4;
+    border: 3px solid #C4C4C4;
     background: #C4C4C4;
 `
 export const HeadText = styled.div`

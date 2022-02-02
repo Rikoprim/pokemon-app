@@ -5,6 +5,7 @@ export const Container = styled.div`
     height: calc(var(--vh, 1vh) * 100);
     margin: auto;
     max-width: 525px;
+    background: #FAFAFA;
     position: relative;
 `
 export const Curve = styled.div`
